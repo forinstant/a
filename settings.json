@@ -1,0 +1,28 @@
+ {
+   "SettingsVersion": 1.2,
+   "SimMode": "Multirotor",
+    "PawnPaths":{
+		"DefultQuadrotor":{"PawnBP":"Class'/Game/customdrone/BP_FlyingPawn.BP_FlyingPawn_C'"}
+	},
+   "Vehicles": {
+    "UAV1": {
+      "VehicleType": "SimpleFlight",
+      "X": 0, "Y": 0, "Z": 0,
+      "Yaw": 0
+           },
+    "UAV2": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath":"DefultQuadrotor",
+      "X":10, "Y": 0, "Z": 0,
+      "Yaw": 0}
+    },
+    "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 640,
+        "Height": 640
+      }
+]
+}  
+ }
